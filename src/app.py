@@ -41,6 +41,46 @@ activities = {
     }
 }
 
+# Additional activities
+activities.update({
+    "Basketball Team": {
+        "description": "Competitive basketball practices and games",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
+        "max_participants": 15,
+        "participants": ["alex@mergington.edu"]
+    },
+    "Soccer Team": {
+        "description": "Outdoor soccer training and matches",
+        "schedule": "Mondays, Wednesdays, 4:30 PM - 6:00 PM",
+        "max_participants": 18,
+        "participants": ["maria@mergington.edu"]
+    },
+    "Art Club": {
+        "description": "Exploring painting, drawing, and mixed media",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["nina@mergington.edu"]
+    },
+    "Drama Club": {
+        "description": "Theater workshops and production rehearsals",
+        "schedule": "Fridays, 3:30 PM - 6:00 PM",
+        "max_participants": 25,
+        "participants": ["liam@mergington.edu"]
+    },
+    "Debate Club": {
+        "description": "Debate practice and inter-school competitions",
+        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": ["chloe@mergington.edu"]
+    },
+    "Science Club": {
+        "description": "Hands-on experiments and science fair projects",
+        "schedule": "Mondays, 3:30 PM - 5:00 PM",
+        "max_participants": 22,
+        "participants": ["noah@mergington.edu"]
+    }
+})
+
 
 @app.get("/")
 def root():
